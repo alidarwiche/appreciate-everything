@@ -37,7 +37,7 @@ class Header extends Component {
             {/* <h1 className="responsive-headline">{name}</h1> */}
             {/* <h3 className="outline-text" style={{color: '#fff', backgroundColor: 'rgb(218, 222, 229, 0.1)', borderRadius: '6px'}}>I'm an <span style={{color:'#ffe200'}}>Austin, TX</span> based <span style={{color:'#ffe200'}}>Full Stack Software Engineer</span> who's passionate about building Web and Mobile applications that improve my user's life.</h3> */}
             {/* <hr /> */}
-            <ul className="social social-media" style={{ position: 'absolute', bottom: '0', marginLeft: '33%'}}>
+            <ul className="social social-media" style={{ position: 'absolute', bottom: '0', marginLeft: '36.5%'}}>
                {networks}
             </ul>
          </div>
