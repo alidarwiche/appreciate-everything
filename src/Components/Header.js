@@ -32,12 +32,12 @@ class Header extends Component {
 
       </nav>
       <img src={"images/header-tree.png"} alt='album art' style={{marginTop: '7.5rem'}} />
-      <div className="banner" style={{}}>
+      <h2 className="responsive-headline" style={{margin: '0 0 0'}}>August 25, 2021</h2>
+      <div className="banner" style={{padding: '0 0 0'}}>
         <div className="banner-text">
-            {/* <h1 className="responsive-headline">{name}</h1> */}
             {/* <h3 className="outline-text" style={{color: '#fff', backgroundColor: 'rgb(218, 222, 229, 0.1)', borderRadius: '6px'}}>I'm an <span style={{color:'#ffe200'}}>Austin, TX</span> based <span style={{color:'#ffe200'}}>Full Stack Software Engineer</span> who's passionate about building Web and Mobile applications that improve my user's life.</h3> */}
             {/* <hr /> */}
-            <ul className="social social-media" style={{ position: 'absolute', bottom: '0', marginLeft: '36.5%'}}>
+            <ul className="social social-media" style={{margin: '12px 0'}}>
                {networks}
             </ul>
          </div>
