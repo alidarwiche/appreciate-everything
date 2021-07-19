@@ -5,7 +5,11 @@
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
     "linkedinpic":"linkedin-pic.jpg",
-    "bio":"I would be lying to myself if I called this album anything less than my magnum opus. ‘Appreciate Everything’ is the culmination of 10 years of work, suffering, and studying in an attempt to create a body of art that fully portrays the diverse nature and expressions of my emotions.",
+    "bio":[
+      "‘Appreciate Everything’ is less of an album and more a collection of memories. I started writing songs by recording myself free-styling into my voice memo app on my phone. I had no knowledge of music theory, no clue how to play an instrument, and no idea how to produce music. I was clueless, but I was desperate. I had too many emotions and the only way I knew how to process them was to sing.",
+      "What I did have was a ton of vision in my head though, and one firm rule: lyrics come first. If the lyrics decide to rap, we rap. If the lyrics decide to scream, we scream. If the lyrics say to do both at the same time, and in the highest part of your vocal register… figure it out. Every part of this album was derived from the lyrics and the triggering emotions that inspired each song. That’s what makes them memories for me.",
+      "Memories of sitting on the floor of my shower long enough for the hot water to run out. Memories of lying on my bed, unable to fall asleep til 6am, and fighting back intrusive thoughts before a final exam. Memories of sitting on the street at 3am. Memories of crying at an office desk at 3pm. Memories with emotions that were constantly clashing because that’s how real feelings are felt. They’re messy, they’re not easy to keep up with, and sometimes they change so fast you don’t even have time to understand them. You’re just along for the ride."
+    ],
     "email": "whenknightssang@gmail.com",
     "phone": "",
     "address":{
@@ -169,10 +173,10 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"To me, these aren’t songs. They are chapters in my history. They are the unspoken narratives from the past 27 years of my life. That being said, these songs aren’t meant for everyone. They are radical and excessive. And in all honesty... they are *hella* overdramatic and way over the top most of the time... However! These tracks are 100% authentic to how I feel inside, and if that overwhelms you, then it means I’ve definitely done my job right."
+        "text":"These songs aren’t meant for everyone. They are radical and excessive. And in all honesty, they are *hella* overdramatic and way over the top most of the time... But these tracks are 100% authentic to how I feel inside. If that overwhelms you, then it means I’ve definitely done my job right."
       },
       {
-        "text":"In short, I hope 45-minutes of walking in my shoes can show you all what it means to wake up every day and say 'Hi, my name is Ali Darwiche.'",
+        "text":"I hope 45-minutes of walking in my shoes can show you all what it means to wake up every day and say 'Hi, my name is Ali Darwiche.'",
         "user":"Ali D."
       }
     ]
