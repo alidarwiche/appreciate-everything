@@ -22,7 +22,7 @@ class Videos extends Component {
       };
 
       var videos = this.props.data.videos.map(function(video){
-        return <div key={video.title}>
+        return <div key={video.title} style={{marginBottom: '15px'}}>
             <YouTube videoId={video.id} opts={opts} onReady={(event) => {event.target.pauseVideo();}} />
         </div>
       });
