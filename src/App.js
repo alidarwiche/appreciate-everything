@@ -10,6 +10,7 @@ import Contact from './Components/Contact';
 import Videos from './Components/Videos';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+import Donations from './Components/Donations';
 
 class App extends Component {
 
@@ -52,6 +53,7 @@ class App extends Component {
         <Videos data={this.state.resumeData.videos}/>
         {/* <Resume data={this.state.resumeData.resume}/> */}
         {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
+        <Donations/>
         <Testimonials data={this.state.resumeData.testimonials}/>
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
