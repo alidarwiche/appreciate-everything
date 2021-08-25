@@ -11,7 +11,7 @@ class Donations extends Component {
   render() {
     const opts = {
       height: '390',
-      width: '100%',
+      width: '90%',
       playerVars: {
         // https://developers.google.com/youtube/player_parameters
         autoplay: 1,
@@ -19,7 +19,7 @@ class Donations extends Component {
     };
 
     return (
-      <section id="portfolio">
+      <section id="donations">
 
       <div className="row">
         <div className="one columns collapsed"></div>

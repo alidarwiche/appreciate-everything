@@ -808,7 +808,7 @@ properly.
 .outline-text{text-shadow:-1px -1px 0 #262525,1px -1px 0 #262525,-1px 1px 0 #262525,1px 1px 0 #262525}
 
 @media (max-width: 600px) {
-  .social-media {
+  /* .social-media {
     display: none;
-  }
+  } */
 }

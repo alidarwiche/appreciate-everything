@@ -56,7 +56,7 @@ class Lyrics extends Component {
     }
 
     return (
-      <section id="resume">
+      <section id="lyrics">
 
       <div className="row work">
 

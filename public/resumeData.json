@@ -145,28 +145,34 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Sweet Outdoors",
-        "category":"A Python-Flask web application for discovering parks and recreational events in your area.",
-        "image":"sweetoutdoors.jpg",
-        "url":"https://github.com/cs373gc-fall-2016/SWEetOutdoors"
+        "title":"I Don't Sing",
+        "category":"The first single of my debut album. It’s a really special one to me. It tells a story I’ve been keeping to myself for a long time.",
+        "image":"mv_covers/ids.png",
+        "url":"https://www.youtube.com/watch?v=SDyGAPnQgo4"
       },
       {
-        "title":"PROcrastinator",
-        "category":"An task management iOS application designed to help procrastinators prioritize their work.",
-        "image":"procrastinator.jpg",
-        "url":"https://github.com/asaidalaoui/IOS"
+        "title":"Count The Sheep",
+        "category":"Once upon a time, I had pneumonia for 3 months and lost my voice for most of that time. I wrote this song during those horrible months.",
+        "image":"mv_covers/cts.png",
+        "url":"https://www.youtube.com/watch?v=0N9A24QLWn0"
       },
       {
-        "title":"Alarming",
-        "category":"An alarm clock application for Android where the user must complete a task in order to disable their alarm.",
-        "image":"alarming.jpg",
-        "url":"https://github.com/lock14/alarming"
+        "title":"Unstable",
+        "category":"I wrote this song shortly after learning I have OCD. It was the first time in my life that I'd genuinely questioned if I was worthy of people's love. Sometimes you gotta chop all your hair off though to see the bigger picture.",
+        "image":"mv_covers/unstable.png",
+        "url":"https://www.youtube.com/watch?v=QEwIWSSGpsg"
       },
       {
-        "title":"alidarwiche.com v1.0",
-        "category":"Version 1 of alidarwiche.com. A primarily HTML, CSS, Bootstrap application.",
-        "image":"alidarwiche_v1.png",
-        "url":"https://github.com/alidarwiche/alidarwiche.com-1"
+        "title":"Apathetic",
+        "category":"For an entire year of my life, I found myself numb. It was a state of apathy I could not shake off. One late-night walking home, I turned that apathy into lyrics and took my first steps towards feeling again.",
+        "image":"mv_covers/apathetic.png",
+        "url":"https://www.youtube.com/watch?v=jxBvdkrxIpY"
+      },
+      {
+        "title":"No.",
+        "category":"Suicide is not a topic I take lightly. I wanted this song and this music video to be something we can all share. Something we can rely on when we don’t have the words to fight back with anymore.",
+        "image":"mv_covers/no.png",
+        "url":"https://www.youtube.com/watch?v=V8dwbRKz4nM"
       }
     ]
   },

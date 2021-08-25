@@ -57,10 +57,10 @@
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
-   /* Resume Section
+   /* Lyrics Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }
+   #lyrics h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #lyrics .main-col { padding-right: 5%; }
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -224,16 +224,16 @@
    #about .main-col { padding-right: 30px; }
 
 
-   /* Resume Section
+   /* Lyrics Section
    --------------------------------------------------------------------- */
-   #resume .header-col {
+   #lyrics .header-col {
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
    }
-   #resume h1 { letter-spacing: 3px; }
-   #resume .main-col { padding-right: 30px; }
-   #resume h3, #resume .info { text-align: center; }
+   #lyrics h1 { letter-spacing: 3px; }
+   #lyrics .main-col { padding-right: 30px; }
+   #lyrics h3, #lyrics .info { text-align: center; }
 
    .bars { width: 100%; }
 
@@ -255,6 +255,11 @@
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
+   .popup-modal {	max-width: 85%; }
+
+   /* Donations Section
+   /* ----------------------------------------------------------------- */
+   #donations-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
 

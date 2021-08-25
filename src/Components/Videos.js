@@ -6,41 +6,38 @@ class Videos extends Component {
   render() {
 
     if(this.props.data){
-      // var skillmessage = this.props.data.skillmessage;
-      // var education = this.props.data.education.map(function(education){
-      //   return <div key={education.school}><h3>{education.school}</h3>
-      //   <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-      //   <p>{education.description}</p></div>
-      // })
-      const opts = {
-        height: '390',
-        width: '100%',
-        playerVars: {
-          // https://developers.google.com/youtube/player_parameters
-          autoplay: 1,
-        },
-      };
-
-      var videos = this.props.data.videos.map(function(video){
-        return <div key={video.title} style={{marginBottom: '15px'}}>
-            <YouTube videoId={video.id} opts={opts} onReady={(event) => {event.target.pauseVideo();}} />
+      var projects = this.props.data.projects.map(function(projects){
+        var projectImage = 'images/portfolio/'+projects.image;
+        return <div key={projects.title} className="columns portfolio-item">
+           <div className="item-wrap">
+            <a target="_blank" href={projects.url} title={projects.title}>
+               <img alt={projects.title} src={projectImage} />
+               <div className="overlay">
+                  <div className="portfolio-item-meta">
+                 <h5>{projects.title}</h5>
+                     <p>{projects.category}</p>
+                  </div>
+                </div>
+              {/* <div className="link-icon" style={{bottom: '0px'}}><i className="fa fa-link"></i></div> */}
+            </a>
+          </div>
         </div>
-      });
-
+      })
     }
 
     return (
-      <section id="resume">
+      <section id="portfolio">
 
-      <div className="row work">
+      <div className="row">
 
-         <div className="three columns header-col">
-            <h1><span>Videos</span></h1>
-         </div>
+         <div className="twelve columns collapsed">
 
-         <div className="nine columns main-col">
-          {videos}
-        </div>
+            <h1>Music Videos</h1>
+
+            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
+                {projects}
+            </div>
+          </div>
       </div>
    </section>
     );
