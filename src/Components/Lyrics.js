@@ -50,7 +50,7 @@ class Lyrics extends Component {
   render() {
     if(this.props.data){
       var lyrics = this.props.data.map(function(obj, index){
-        return <option value={index}>{obj.title}</option>
+        return <option value={index}>{++index}) {obj.title}</option>
       });
 
     }
