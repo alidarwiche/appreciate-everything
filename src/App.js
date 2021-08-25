@@ -60,6 +60,7 @@ class App extends Component {
 
   componentDidMount(){
     this.getResumeData();
+    this.getLyricData();
   }
 
   render() {
@@ -67,7 +68,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Lyrics data={this.state.lyricData}/>
+        <Lyrics data={this.state.lyricData.album}/>
         <Videos data={this.state.resumeData.videos}/>
         {/* <Resume data={this.state.resumeData.resume}/> */}
         {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
